@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          ADAS_ARCHI_KPIT_PROJECT
         </a>
       </header>
     </div>
