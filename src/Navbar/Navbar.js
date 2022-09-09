@@ -4,7 +4,7 @@ import "./Navbar.css"
 
 const Navbar = () =>{
   return(
-<nav class="navbar navbar-dark bg-dark fixed-top">
+<nav id="nav" class="navbar navbar-dark fixed-top">
   <div class="container">
     <a class="navbar-brand" href="#">
       <img src="./img/logo1.png" alt="Bootstrap" width="120" height="40"></img>
@@ -21,10 +21,12 @@ const Navbar = () =>{
             ADAS Features
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Highway Driving Assist</a></li>
+            <li><a class="dropdown-item" href="#">Automotive Emergency Steer</a></li>
+            <li><a class="dropdown-item" href="#">Lane Centering Assist</a></li>
+            <li><a class="dropdown-item" href="#">Urban Chauffeur</a></li>
             <li><hr class="dropdown-divider"></hr></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">More..</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -32,10 +34,12 @@ const Navbar = () =>{
             ADAS ELements
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">HMI</a></li>
+            <li><a class="dropdown-item" href="#">Enviromental Data</a></li>
+            <li><a class="dropdown-item" href="#">Vehicle System</a></li>
+            <li><a class="dropdown-item" href="#">In-Vehicle Sensors</a></li>
             <li><hr class="dropdown-divider"></hr></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">More...</a></li>
           </ul>
         </li>
         
