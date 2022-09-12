@@ -4,8 +4,8 @@ import "./Navbar.css"
 
 const Navbar = () =>{
   return(
-<nav id="nav" class="navbar navbar-dark fixed-top">
-  <div class="container">
+<nav  id="nav" class="navbar navbar-expand-md ">
+  <div id="navcon" class="container">
     <a class="navbar-brand" href="/">
       <img src="./img/logo1.png" alt="Bootstrap" width="120" height="40"></img>
     </a>
