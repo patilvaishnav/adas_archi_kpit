@@ -5,7 +5,7 @@ import Navbar from './Navbar/Navbar';
 import Home from './Home/Home';
 import Slides from './Slides/Slides';
 import Footer from './Footer/Footer';
-import All_Elements from './Adas_Elements/All_Elements';
+import MindNode from './Adas_Elements/All_Elements';
 import All_Features from './Adas_Features/All_Features';
 import Adas_Archi from './Adas_Architecture/Adas_Archi';
 import About_Us from './About_us/About_us';
@@ -61,7 +61,7 @@ function App() {
         {/*Adas Elements Page*/}
         <Route exact={true} path='/all_elements'>
           <Navbar />
-          <All_Elements />
+          <MindNode />
           <Footer />
         </Route>
 
