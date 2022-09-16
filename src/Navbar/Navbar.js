@@ -22,7 +22,7 @@ const Navbar = () =>{
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Highway Driving Assist</a></li>
-            <li><a class="dropdown-item" href="#">Automotive Emergency Steer</a></li>
+            <li><a class="dropdown-item" href="/automatic_emergency_steering">Automotive Emergency Steer</a></li>
             <li><a class="dropdown-item" href="#">Lane Centering Assist</a></li>
             <li><a class="dropdown-item" href="#">Urban Chauffeur</a></li>
             <li><hr class="dropdown-divider"></hr></li>

@@ -5,10 +5,12 @@ import Navbar from './Navbar/Navbar';
 import Home from './Home/Home';
 import Slides from './Slides/Slides';
 import Footer from './Footer/Footer';
-import MindNode from './Adas_Elements/All_Elements';
+import Adas_Elements from './Adas_Architecture/Adas_Archi';
+import Automatic_Emergency_Steering from './Adas_Elements/Automatic_Emergency_Steering';
 import All_Features from './Adas_Features/All_Features';
 import Adas_Archi from './Adas_Architecture/Adas_Archi';
 import About_Us from './About_us/About_us';
+import All_Elements from './Adas_Elements/All_Elements';
 
 
 
@@ -61,7 +63,14 @@ function App() {
         {/*Adas Elements Page*/}
         <Route exact={true} path='/all_elements'>
           <Navbar />
-          <MindNode />
+         <All_Elements/>
+          <Footer />
+        </Route>
+
+        {/*Automatic Emergency Steering*/}
+        <Route exact={true} path='/automatic_emergency_steering'>
+          <Navbar />
+         <Automatic_Emergency_Steering/>
           <Footer />
         </Route>
 
