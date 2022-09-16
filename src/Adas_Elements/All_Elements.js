@@ -204,7 +204,7 @@ const initialElements = [
         id: 'W',
         sourcePosition: 'right',
         targetPosition: 'left',
-        data: { label: <Driver/> },
+        data: { label: 'Driver' },
         position: { x: -300, y: 250 },
         
     },
@@ -212,7 +212,7 @@ const initialElements = [
         id: 'X',
         sourcePosition: 'right',
         targetPosition: 'left',
-        data: { label: <Enviromental_Data/> },
+        data: { label: 'Enviromental_Data' },
         position: { x: -300, y: 500},
         
     },
@@ -220,7 +220,7 @@ const initialElements = [
         id: 'Y',
         sourcePosition: 'right',
         targetPosition: 'left',
-        data: { label: <Vehicle_system/> },
+        data: { label: 'Vehicle_system' },
         position: { x: 400, y: 250 },
         
     },
@@ -228,7 +228,7 @@ const initialElements = [
         id: 'Z',
         sourcePosition: 'right',
         targetPosition: 'left',
-        data: { label: <HMI/> },
+        data: { label: 'hmi'},
         position: { x: 400, y: 500 },
        
     },
