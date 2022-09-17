@@ -1,10 +1,17 @@
 import React from "react";
 import "../App.css"
 import AES from "../Use_Case_Digrams/AES_Usecase";
+import System_Boundary from "../System_Boundry_Diagram/AES_SystemBoundary";
 import "./Automatic_Emergency_Steering.css"
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import All_Elements from "../Adas_Elements/All_Elements";
+
+
 
 const Automatic_Emergency_Steering = () => {
+  
     return (
+        
         <div id="body_AES">
             <div id="title"><p class="text-start"><h2>AUTOMATIC EMERGENCY STEERING_V1.0</h2></p></div>
             <div id="sub-title"><p class="text-start"><h4><u>1.Working-</u></h4></p></div>
@@ -18,7 +25,11 @@ const Automatic_Emergency_Steering = () => {
             </p></div>
             <div id="sub-title"><p class="text-start"><h4><u>2.Usecase Diagram-</u></h4></p></div>
             <div id='usecase'>
-                <AES />
+               <Router>
+                <Route >
+                    <AES/>
+                </Route>
+               </Router>
             </div><br></br>
             <div id="info"><p class="text-start">
                 <div id="small_title">•Driver:</div>
@@ -38,6 +49,13 @@ const Automatic_Emergency_Steering = () => {
 
             </p></div>
             <div id="sub-title"><p class="text-start"><h4><u>3.System Boundry Diagram-</u></h4></p></div>
+            <div id='usecase'>
+            <Router>
+                <Route >
+                    <System_Boundary/>
+                </Route>
+               </Router>
+            </div><br></br>
             <div class="container">
                 <table class="table table-bordered">
                     <thead>
@@ -89,7 +107,9 @@ const Automatic_Emergency_Steering = () => {
             <div id="sub-title"><p class="text-start"><h4><u>4.State Machine Diagram-</u></h4></p></div>
             <div id="sub-title"><p class="text-start"><h4><u>5.Fuctional Flow Diagram-</u></h4></p></div>
         </div>
-    );
-};
+        
+        );
+}
+
 
 export default Automatic_Emergency_Steering;

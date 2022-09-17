@@ -4,11 +4,11 @@ import "../App.css"
 import Enviromental_Data from '../Icons/Enviromental_data';
 import Vehicle_system from '../Icons/Vehicle_system';
 import HMI from '../Icons/HMI';
-import ReactFlow, { addEdge, Background, Controls, MiniMap } from 'react-flow-renderer';
+import ReactFlow, { ReactFlowProvider,addEdge, Background, Controls, MiniMap } from 'react-flow-renderer';
 
 
 
-const initialElements = [
+const initialElements_usecase = [
     {
         id: 'A', type: 'group', data: { label: 'AES' }, position: { x: 0, y: 0 }, style: { width: '7cm', height: '20cm', color: '000000',  border: '1px solid #222138' },
     },
@@ -269,7 +269,7 @@ const onLoad = (reactFlowInstance) => {
 
 const AES = () => {
 
-    const [elements, setElements] = useState(initialElements);
+    const [elements, setElements] = useState(initialElements_usecase);
     const [name, setName] = useState("")
 
     const addNode = () => {
@@ -284,8 +284,9 @@ const AES = () => {
 
     return (
         <div id="img">
-            
+            <ReactFlowProvider>
                 <ReactFlow
+                    className='ll'
                     elements={elements}
                     onLoad={onLoad}
                     style={{ width: '100%', height: '90vh' }}
@@ -302,7 +303,7 @@ const AES = () => {
 
                     <Controls />
                 </ReactFlow>
-
+                </ReactFlowProvider>
                 <div >
                     <br/>
                     <form class="row g-3">
@@ -315,10 +316,10 @@ const AES = () => {
 </form>
                    
                 </div>
-                <h4>Automatic Emergency Steering</h4>
+                <h5>Automatic Emergency Steering</h5>
            
         </div>
     )
 }
 
-export default AES;
+export  default AES ;

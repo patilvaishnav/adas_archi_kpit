@@ -6,7 +6,7 @@ import Home from './Home/Home';
 import Slides from './Slides/Slides';
 import Footer from './Footer/Footer';
 import Adas_Elements from './Adas_Architecture/Adas_Archi';
-import Automatic_Emergency_Steering from './Adas_Elements/Automatic_Emergency_Steering';
+import Automatic_Emergency_Steering from './Adas_Features/Automatic_Emergency_Steering';
 import All_Features from './Adas_Features/All_Features';
 import Adas_Archi from './Adas_Architecture/Adas_Archi';
 import About_Us from './About_us/About_us';
