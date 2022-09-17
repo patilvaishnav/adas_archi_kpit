@@ -1,7 +1,8 @@
 import React from "react";
 import "../App.css"
 import AES from "../Use_Case_Digrams/AES_Usecase";
-import System_Boundary from "../System_Boundry_Diagram/AES_SystemBoundary";
+import AES_System_Boundary from "../System_Boundry_Diagram/AES_SystemBoundary";
+import AES_State_Machine from "../State_Machine__Diagrams/AES_StateMachine";
 import "./Automatic_Emergency_Steering.css"
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import All_Elements from "../Adas_Elements/All_Elements";
@@ -9,9 +10,9 @@ import All_Elements from "../Adas_Elements/All_Elements";
 
 
 const Automatic_Emergency_Steering = () => {
-  
+
     return (
-        
+
         <div id="body_AES">
             <div id="title"><p class="text-start"><h2>AUTOMATIC EMERGENCY STEERING_V1.0</h2></p></div>
             <div id="sub-title"><p class="text-start"><h4><u>1.Working-</u></h4></p></div>
@@ -25,11 +26,11 @@ const Automatic_Emergency_Steering = () => {
             </p></div>
             <div id="sub-title"><p class="text-start"><h4><u>2.Usecase Diagram-</u></h4></p></div>
             <div id='usecase'>
-               <Router>
-                <Route >
-                    <AES/>
-                </Route>
-               </Router>
+                <Router>
+                    <Route >
+                        <AES />
+                    </Route>
+                </Router>
             </div><br></br>
             <div id="info"><p class="text-start">
                 <div id="small_title">•Driver:</div>
@@ -50,11 +51,11 @@ const Automatic_Emergency_Steering = () => {
             </p></div>
             <div id="sub-title"><p class="text-start"><h4><u>3.System Boundry Diagram-</u></h4></p></div>
             <div id='usecase'>
-            <Router>
-                <Route >
-                    <System_Boundary/>
-                </Route>
-               </Router>
+                <Router>
+                    <Route >
+                        <AES_System_Boundary />
+                    </Route>
+                </Router>
             </div><br></br>
             <div class="container">
                 <table class="table table-bordered">
@@ -97,18 +98,47 @@ const Automatic_Emergency_Steering = () => {
                 <div id="small_title">•Wheel Speed Sensor:</div>
                 It is used to detect rotational speed of each wheel.
                 <br></br>
-                <br></br>	
+                <br></br>
                 <div id="small_title">•Radar:</div>
                 Radio Detection and Ranging System. It is basically an electromagnetic system used to detect the location and distance of an object .
                 <br></br>
-                <br></br>	
+                <br></br>
 
             </p></div>
             <div id="sub-title"><p class="text-start"><h4><u>4.State Machine Diagram-</u></h4></p></div>
+            <div id='usecase'>
+                <Router>
+                    <Route >
+                        <AES_State_Machine />
+                    </Route>
+                </Router>
+            </div><br></br>
+            <div id="info"><p class="text-start">
+                <div id="small_title">•INIT:</div>
+                •	When Ignition was ON, the AES comes to INIT State.                <br></br>
+                <br></br>
+                <div id="small_title">•STANDBY:</div>
+                •	After ignition, the feature goes to STANDBY State.
+                •	Once collision detected, AES provide warning to driver to take over.
+                •	When driver not takeover after warning, it goes to ACTIVE State from STANDBY State.
+                •	When driver takeover after warning, AES remains in STANDBY State.
+                <br></br>
+                <br></br>
+                <div id="small_title">•ACTIVE:</div>
+                When driver not takeover after warning, it goes to ACTIVE State from STANDBY State.
+                •	When AES can’t takeover during critical condition, it goes to FAIL state.
+                <br></br>
+                <br></br>
+                <div id="small_title">•FAIL:</div>
+                •	When AES takeover on critical condition, it goes to ACTIVE state.
+                <br></br>
+                <br></br>
+
+            </p></div>
             <div id="sub-title"><p class="text-start"><h4><u>5.Fuctional Flow Diagram-</u></h4></p></div>
         </div>
-        
-        );
+
+    );
 }
 
 
