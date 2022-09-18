@@ -3,9 +3,10 @@ import "../App.css"
 import AES from "../Use_Case_Digrams/AES_Usecase";
 import AES_System_Boundary from "../System_Boundry_Diagram/AES_SystemBoundary";
 import AES_State_Machine from "../State_Machine__Diagrams/AES_StateMachine";
+import AES_Flow from "../Functional_Flow_Diagrams/AES_FunctionalFlow";
 import "./Automatic_Emergency_Steering.css"
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import All_Elements from "../Adas_Elements/All_Elements";
+
 
 
 
@@ -136,6 +137,13 @@ const Automatic_Emergency_Steering = () => {
 
             </p></div>
             <div id="sub-title"><p class="text-start"><h4><u>5.Fuctional Flow Diagram-</u></h4></p></div>
+            <div id='usecase'>
+                <Router>
+                    <Route >
+                        <AES_Flow />
+                    </Route>
+                </Router>
+            </div><br></br>
         </div>
 
     );

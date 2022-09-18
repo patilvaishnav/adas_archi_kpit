@@ -45,6 +45,7 @@ const initialElements = [
     { id: 'link-6', type: 'straight',style: { stroke: 'green' },label:'Error Resolved', source: '3-b', target: '5-e', animated:true},
     { id: 'link-7', type: 'straight',style: { stroke: '#FF6100' },label:'Collision Detected', source: '5-a', target: '4-a', animated:true},
     { id: 'link-8', type: 'straight',style: { stroke: 'green' },label:'Driver Takeover after warning', source: '4-b', target: '5-b', animated:true},
+    { id: 'link-9', type: 'straight',style: { stroke: 'green' },label:'Intializtion successful', source: '2', target: '5', animated:true},
 
 
 
