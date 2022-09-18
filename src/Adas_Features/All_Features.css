@@ -1,4 +1,12 @@
-#body{
-    margin-top: 5%;
-    padding: 2%;
+#bodyf{
+    background-color: black;
+    padding-left: 5cm;
+    padding-right: 5cm;
+}
+#title{
+    padding: 1cm;
+}
+
+.card{
+    margin: 1cm;
 }

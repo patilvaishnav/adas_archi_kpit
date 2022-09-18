@@ -41,6 +41,10 @@ const initialElements = [
     
     { id: '16',targetPosition:'left', type: 'default', data: { label: 'AES not activate' }, position: { x: 210, y: 80 }, style: { border: '1px solid black', background: 'none', width: 80, height: 60, font: { size: '5%' } } },
     { id: '17',targetPosition:'left', type: 'default', data: { label: 'Provide braking assist' }, position: { x: 210, y: 180 }, style: { border: '1px solid black', background: 'none', width: 80, height: 70, font: { size: '5%' } } },
+    { id: '18',targetPosition:'left', type: 'default', data: { label: 'AES Deactivate' }, position: { x: 210, y: 280 }, style: { border: '1px solid black', background: 'none', width: 80, height: 50, font: { size: '5%' } } },
+    { id: '19',targetPosition:'left', type: 'default', data: { label: 'HMI' }, position: { x: 210, y: 530 }, style: { border: '1px solid black', background: 'none', width: 80, height: 50, font: { size: '5%' } } },
+    { id: '20',targetPosition:'left', type: 'default', data: { label: 'AES Deactivate' }, position: { x: 210, y: 680 }, style: { border: '1px solid black', background: 'none', width: 80, height: 50, font: { size: '5%' } } },
+    { id: '21',targetPosition:'left', type: 'default', data: { label: 'Provide Steering Assist' }, position: { x: 210, y: 780 }, style: { border: '1px solid black', background: 'none', width: 80, height: 50, font: { size: '5%' } } },
 
 
     /*links*/
@@ -54,7 +58,11 @@ const initialElements = [
     { id: 'link-8', type: 'straight', style: { stroke: 'blue', }, source: '14', target: '15', animated: true },
     { id: 'link-9', type: 'straight',label:'no', style: { stroke: 'red', }, source: '10-a', target: '16', animated: true },
     { id: 'link-10', type: 'straight',label:'Yes', style: { stroke: 'green', }, source: '11', target: '17', animated: true },
-    { id: 'link-11', type: 'step',label:'Yes', style: { stroke: 'green', }, source: '17', target: '12', animated: true },
+    { id: 'link-11', type: 'step',label:'Yes', style: { stroke: 'blue', }, source: '17', target: '12', animated: true },
+    { id: 'link-12', type: 'straight',label:'Yes', style: { stroke: 'green', }, source: '12-a', target: '18', animated: true },
+    { id: 'link-11', type: 'straight',label:'Yes', style: { stroke: 'green', }, source: '14-a', target: '19', animated: true },
+    { id: 'link-11', type: 'straight',label:'Yes', style: { stroke: 'gree', }, source: '15-a', target: '20', animated: true },
+    { id: 'link-11', type: 'step',label:'Yes', style: { stroke: 'green', }, source: '15', target: '21', animated: true },
 
 
 

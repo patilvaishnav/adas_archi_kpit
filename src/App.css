@@ -6,7 +6,18 @@
   height: 40vmin;
   pointer-events: none;
 }
+#breadcr{
+  background-color:  rgb(180, 82, 250);
+  padding-top: 0.3cm;
+  padding-bottom: 0.1cm;
+  padding-left: 1cm;
+  color: aliceblue;
 
+}
+
+#currentpage{
+  color:black;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

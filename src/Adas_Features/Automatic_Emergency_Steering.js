@@ -14,7 +14,15 @@ const Automatic_Emergency_Steering = () => {
 
     return (
 
+
         <div id="body_AES">
+            <nav aria-label="breadcrumb" id="breadcr">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item "><a class="text-white" href="/">Home</a></li>
+                    <li class="breadcrumb-item "><a class="text-white" href="/all_features">ADAS Features</a></li>
+                    <li  id="currentpage" class="breadcrumb-item ">Automatic Emergency Steering</li>
+                </ol>
+            </nav>
             <div id="title"><p class="text-start"><h2>AUTOMATIC EMERGENCY STEERING_V1.0</h2></p></div>
             <div id="sub-title"><p class="text-start"><h4><u>1.Working-</u></h4></p></div>
             <div id="info"><p class="text-start">
