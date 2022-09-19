@@ -11,6 +11,7 @@ import All_Features from './Adas_Features/All_Features';
 import Adas_Archi from './Adas_Architecture/Adas_Archi';
 import About_Us from './About_us/About_us';
 import All_Elements from './Adas_Elements/All_Elements';
+import Urban_chauffer from './Adas_Features/Urban_chauffer'
 
 
 
@@ -74,6 +75,13 @@ function App() {
           <Footer />
         </Route>
 
+        {/*Urban Chauffer*/}
+        <Route exact={true} path='/Uraban_chauffer'>
+          <Navbar />
+         <Urban_chauffer/>
+          <Footer />
+        </Route>
+        
         {/*About Us page*/}
         <Route exact={true} path='/about_us'>
           <Navbar />

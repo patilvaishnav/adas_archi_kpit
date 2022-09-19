@@ -31,7 +31,7 @@ const All_Features = () => {
                 <div class="card-body">
                     <h5 class="card-title text-start">Urban Chauffeur</h5>
                     <p class="card-text text-start">Urban chauffeur is level 3 ADAS feature which takes lateral and longitudinal control of ego-vehicle in Urban roads.</p>
-                    <a href="#" class="btn btn-primary">more..</a>
+                    <a href="/Uraban_chauffer" class="btn btn-primary">more..</a>
                 </div>
             </div>
             <br></br>
