@@ -44,7 +44,7 @@ const initialElements = [
     { id: '18',targetPosition:'left', type: 'default', data: { label: 'AES Deactivate' }, position: { x: 210, y: 280 }, style: { border: '1px solid black', background: 'none', width: 80, height: 50, font: { size: '5%' } } },
     { id: '19',targetPosition:'left', type: 'default', data: { label: 'HMI' }, position: { x: 210, y: 530 }, style: { border: '1px solid black', background: 'none', width: 80, height: 50, font: { size: '5%' } } },
     { id: '20',targetPosition:'left', type: 'default', data: { label: 'AES Deactivate' }, position: { x: 210, y: 680 }, style: { border: '1px solid black', background: 'none', width: 80, height: 50, font: { size: '5%' } } },
-    { id: '21',targetPosition:'left', type: 'default', data: { label: 'Provide Steering Assist' }, position: { x: 210, y: 780 }, style: { border: '1px solid black', background: 'none', width: 80, height: 50, font: { size: '5%' } } },
+    { id: '21',targetPosition:'left', type: 'default', data: { label: 'Provide Steering Assist' }, position: { x: 210, y: 760 }, style: { border: '1px solid black', background: 'none', width: 80, height: 70, font: { size: '5%' } } },
 
 
     /*links*/
@@ -62,7 +62,7 @@ const initialElements = [
     { id: 'link-12', type: 'straight',label:'Yes', style: { stroke: 'green', }, source: '12-a', target: '18', animated: true },
     { id: 'link-11', type: 'straight',label:'Yes', style: { stroke: 'green', }, source: '14-a', target: '19', animated: true },
     { id: 'link-11', type: 'straight',label:'Yes', style: { stroke: 'gree', }, source: '15-a', target: '20', animated: true },
-    { id: 'link-11', type: 'step',label:'Yes', style: { stroke: 'green', }, source: '15', target: '21', animated: true },
+    { id: 'link-11', type: 'step',label:'no', style: { stroke: 'red', }, source: '15', target: '21', animated: true },
 
 
 
