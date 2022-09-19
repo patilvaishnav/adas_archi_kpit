@@ -9,7 +9,7 @@ const All_Features = () => {
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title text-start">Highway Driving Assist</h5>
-                    <p class="card-text text-start">With supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text text-start">Highway Driving Assist is a Level 2 advanced driving assistance system (ADAS) designed for limited-access highways.</p>
                     <a href="#" class="btn btn-primary">more..</a>
                 </div>
             </div>
@@ -23,14 +23,14 @@ const All_Features = () => {
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title text-start">Lane Centering Assist</h5>
-                    <p class="card-text text-start">With supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text text-start">Lane Centering Assist keeps the vehicle centered within the lane it is traveling and gives warning when vehicle drift out of lane.</p>
                     <a href="#" class="btn btn-primary">more..</a>
                 </div>
             </div>
             <div class="card"id="">
                 <div class="card-body">
                     <h5 class="card-title text-start">Urban Chauffeur</h5>
-                    <p class="card-text text-start">With supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text text-start">Urban chauffeur is level 3 ADAS feature which takes lateral and longitudinal control of ego-vehicle in Urban roads.</p>
                     <a href="#" class="btn btn-primary">more..</a>
                 </div>
             </div>
