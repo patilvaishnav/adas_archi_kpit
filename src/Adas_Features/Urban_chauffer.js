@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css"
 import UC from "../Use_Case_Digrams/UC_Usecase";
 import UC_SystemBoundary from "../System_Boundry_Diagram/UC_SystemBoundary";
-import AES_State_Machine from "../State_Machine__Diagrams/AES_StateMachine";
+import UC_State_Machine from "../State_Machine__Diagrams/UC_StateMachine";
 import UC_Flow from "../Functional_Flow_Diagrams/UC_FunctionalFlow";
 import "./Urban_chauffer.css"
 import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -20,10 +20,10 @@ const Urban_chauffer = () => {
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item "><a class="text-white" href="/">Home</a></li>
                     <li class="breadcrumb-item "><a class="text-white" href="/all_features">ADAS Features</a></li>
-                    <li  id="currentpage" class="breadcrumb-item ">URBAN CHAUFFER</li>
+                    <li  id="currentpage" class="breadcrumb-item ">URBAN CHAUFFEUR</li>
                 </ol>
             </nav>
-            <div id="title"><p class="text-start"><h2>URBAN_CHAUFFER</h2></p></div>
+            <div id="title"><p class="text-start"><h2>URBAN_CHAUFFEUR</h2></p></div>
             <div id="sub-title"><p class="text-start"><h4><u>1.Working-</u></h4></p></div>
             <div id="info"><p class="text-start">
                 •  Urban chauffeur is level 3 ADAS feature which takes lateral and longitudinal control of ego-vehicle in Urban roads.<br></br>
@@ -120,7 +120,7 @@ const Urban_chauffer = () => {
             <div id='usecase'>
                 <Router>
                     <Route >
-                        
+                    <UC_State_Machine />
                     </Route>
                 </Router>
             </div><br></br>

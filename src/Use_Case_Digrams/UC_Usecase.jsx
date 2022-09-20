@@ -67,7 +67,7 @@ const initialElements_usecase = [
         sourcePosition: 'right',
         targetPosition: 'left',
         data: { label: 'Set safe Speed and Distance' },
-        position: { x: 50, y: 170 },
+        position: { x: 50, y: 155 },
         parentNode: 'A',
         extent: 'parent',
         style: {
