@@ -21,9 +21,9 @@ const Navbar = () =>{
             ADAS Features
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Highway Driving Assist</a></li>
+            <li><a class="dropdown-item" href="/highway_driving_assist">Highway Driving Assist</a></li>
             <li><a class="dropdown-item" href="/automatic_emergency_steering">Automotive Emergency Steer</a></li>
-            <li><a class="dropdown-item" href="#">Lane Centering Assist</a></li>
+            <li><a class="dropdown-item" href="/lane_centering_assist">Lane Centering Assist</a></li>
             <li><a class="dropdown-item" href="/Uraban_chauffer">Urban Chauffeur</a></li>
             <li><hr class="dropdown-divider"></hr></li>
             <li><a class="dropdown-item" href="/all_features">More..</a></li>
@@ -34,10 +34,10 @@ const Navbar = () =>{
             ADAS ELements
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">HMI</a></li>
-            <li><a class="dropdown-item" href="#">Enviromental Data</a></li>
-            <li><a class="dropdown-item" href="#">Vehicle System</a></li>
-            <li><a class="dropdown-item" href="#">In-Vehicle Sensors</a></li>
+            <li><a class="dropdown-item" href="/all_elements">HMI</a></li>
+            <li><a class="dropdown-item" href="/all_elements">Enviromental Data</a></li>
+            <li><a class="dropdown-item" href="/all_elements">Vehicle System</a></li>
+            <li><a class="dropdown-item" href="/all_elements">In-Vehicle Sensors</a></li>
             <li><hr class="dropdown-divider"></hr></li>
             <li><a class="dropdown-item" href="/all_elements">More...</a></li>
           </ul>

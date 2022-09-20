@@ -12,6 +12,8 @@ import Adas_Archi from './Adas_Architecture/Adas_Archi';
 import About_Us from './About_us/About_us';
 import All_Elements from './Adas_Elements/All_Elements';
 import Urban_chauffer from './Adas_Features/Urban_chauffer'
+import Highway_Driving_Assist from './Adas_Features/Highway_Driving_Assist';
+import Lane_Centering_Assist from './Adas_Features/Lane_Centering_Assist';
 
 
 
@@ -72,6 +74,20 @@ function App() {
         <Route exact={true} path='/automatic_emergency_steering'>
           <Navbar />
          <Automatic_Emergency_Steering/>
+          <Footer />
+        </Route>
+
+        {/*Highway Driving Assist*/}
+        <Route exact={true} path='/highway_driving_assist'>
+          <Navbar />
+         <Highway_Driving_Assist/>
+          <Footer />
+        </Route>
+
+        {/*Lane Centering Assist*/}
+        <Route exact={true} path='/lane_centering_assist'>
+          <Navbar />
+         <Lane_Centering_Assist/>
           <Footer />
         </Route>
 

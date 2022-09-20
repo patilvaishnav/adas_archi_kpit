@@ -17,7 +17,7 @@ const All_Features = () => {
                 <div class="card-body">
                     <h5 class="card-title text-start">Highway Driving Assist</h5>
                     <p class="card-text text-start">Highway Driving Assist is a Level 2 advanced driving assistance system (ADAS) designed for limited-access highways.</p>
-                    <a href="#" class="btn btn-primary">more..</a>
+                    <a href="/highway_driving_assist" class="btn btn-primary">more..</a>
                 </div>
             </div>
             <div class="card">
@@ -31,7 +31,7 @@ const All_Features = () => {
                 <div class="card-body">
                     <h5 class="card-title text-start">Lane Centering Assist</h5>
                     <p class="card-text text-start">Lane Centering Assist keeps the vehicle centered within the lane it is traveling and gives warning when vehicle drift out of lane.</p>
-                    <a href="#" class="btn btn-primary">more..</a>
+                    <a href="/lane_centering_assist" class="btn btn-primary">more..</a>
                 </div>
             </div>
             <div class="card"id="">
