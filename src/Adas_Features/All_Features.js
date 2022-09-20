@@ -4,6 +4,13 @@ import "./All_Features.css"
 
 const All_Features = () => {
     return (  
+        <div>
+             <nav aria-label="breadcrumb" id="breadcr">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item "><a class="text-white" href="/">Home</a></li>
+                    <li  id="currentpage" class="breadcrumb-item ">All Features </li>
+                </ol>
+            </nav>
         <div class="container-fluid" id="bodyf" >
         <div id="title"><p class="text-start text-white"><h2>All Features</h2></p></div>
             <div class="card">
@@ -38,6 +45,7 @@ const All_Features = () => {
             <br></br>
             <br></br>
             <br></br>
+        </div>
         </div>
        
         
