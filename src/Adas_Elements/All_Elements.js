@@ -1,13 +1,13 @@
-import React from "react";
-import "../App.css"
-import "./All_Elements.css"
+import React, { useState } from 'react';
+import { render } from 'react-dom';
 
-const All_Elements = () =>{
-    return(
-        <div class="container-fluid" >
-        <h1>Cooming Soon.....</h1>
-        </div>
-    );
+
+
+const All_Elements = () => {
+return(
+   <h1>All_Elements</h1>
+  
+   );
 };
 
 export default All_Elements;
